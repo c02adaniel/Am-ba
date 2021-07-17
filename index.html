@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Ács Dániel">
+		<meta name="description" content="Amőba">
+		<meta name="keywords" content="Amőba">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<title>Amőba</title>
+	</head>
+	<body>
+		<input type="button" onclick="new_game();" value="Új játék"> <input type="button" onclick="meretez();" value="Érintőképernyő/Alap állapot"> <input type="button" onclick="jatekosok();" value="Játékosok"><br>
+		<span class="szoveg">A tábla új mérete: </span><input type="number" id="meret" value="20" step="5" min="5" max="100" title="5 és 100 közötti érték">
+		<input type="button" onclick="tabla();" value="Átméretez">
+		<table name="amoba" id="amoba"></table>
+		<script>
+			tabla();
+		</script>
+	</body>
+</html>
