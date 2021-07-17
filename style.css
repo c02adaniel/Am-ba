@@ -1,0 +1,40 @@
+body, .szoveg
+	{
+		font-size: 1em;
+	}
+table
+	{
+		border-collapse: collapse;
+	}
+table, th, td 
+	{
+		border: 1px solid black;
+		cursor:pointer;
+	}
+td
+	{
+		width: 1.2em;
+		height: 1.2em;
+		text-align: center;
+		vertical-align: middle;
+	}
+td.kek
+	{
+		color:blue;
+		cursor:not-allowed;
+	}
+td.piros
+	{
+		color:red;
+		cursor:not-allowed;
+	}
+td.nyert
+	{
+		background-color:lime;
+		border: 2px solid black;
+		font-weight:bold;
+	}
+.szoveg
+	{
+		font-size: 1em;
+	}
